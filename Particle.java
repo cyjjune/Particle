@@ -12,8 +12,7 @@ public class Particles {
  public static void main(String[] args){
    Particles elec = new Particles ( 9.1*Math.pow(10,-28),-1.6*Math.pow(10,-19),"electron");
    Particles prot = new Particles ( 1.6*Math.pow(10,-24),1.6*Math.pow(10,-19),"proton");
-   Particles neu = new Particles ( 1.6*Math.pow(10,-24),0,"neutron");}
- 
+   
    double EFstatic = eForce_s( e1,p1,d );
    
     
